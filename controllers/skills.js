@@ -1,6 +1,6 @@
 const Skill = require('../models/skill')
 
-module.export = {
+module.exports = {
     index,
     show,
     new: newSkill,
