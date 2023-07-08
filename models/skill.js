@@ -32,7 +32,7 @@ const skills = [
     // Add the id
     skill.id = Date.now() % 1000000;
     skill.done = false;
-    skill.push(skill);
+    skills.push(skill);
   }
 
 
